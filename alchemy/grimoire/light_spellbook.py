@@ -10,4 +10,3 @@ def light_spell_record(
     if "INVALID" in validation:
         return f"Not recorded: {spell_name} ({validation})"
     return f"Recorded: {spell_name} ({validation})"
-

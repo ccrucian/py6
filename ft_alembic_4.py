@@ -4,7 +4,7 @@ import alchemy
 def main() -> None:
     print(f"{alchemy.create_air()}")
     try:
-        print(f"{alchemy.creat_earth}")
+        print(f"{alchemy.create_earth()}")
     except AttributeError as e:
         print(
             f"Function not exposed through the module "
